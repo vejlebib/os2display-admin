@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5edd63bb0bc27b3782c99f27c970ec0d",
+    "content-hash": "b69607bcaa5d0bbb274a885e1bacd3dc",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -647,7 +647,8 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.5.x-dev"
-                }
+                },
+                "patches_applied": []
             },
             "autoload": {
                 "psr-0": {
@@ -2872,6 +2873,11 @@
                 "twig/twig": "^1.0||^2.0"
             },
             "type": "symfony-bundle",
+            "extra": {
+                "patches_applied": {
+                    "Switch to supporting a separate configuration for the public search hostname": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/12.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Os2Display\\AdminBundle\\": ""
@@ -3060,6 +3066,54 @@
             ],
             "description": "Os2Display screen",
             "time": "2019-10-07T08:01:52+00:00"
+        },
+        {
+            "name": "os2display/vimeo-bundle",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/os2display/vimeo-bundle.git",
+                "reference": "f982941dcc82d9dbfb8e5c44aed209fd033626dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/os2display/vimeo-bundle/zipball/f982941dcc82d9dbfb8e5c44aed209fd033626dc",
+                "reference": "f982941dcc82d9dbfb8e5c44aed209fd033626dc",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\VimeoBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Os2Display vimeo template.",
+            "time": "2019-05-15T13:16:30+00:00"
+        },
+        {
+            "name": "os2display/youtube-bundle",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/os2display/youtube-bundle.git",
+                "reference": "adcb210a1cf2207e9baed2565f22fd8e13481cb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/os2display/youtube-bundle/zipball/adcb210a1cf2207e9baed2565f22fd8e13481cb3",
+                "reference": "adcb210a1cf2207e9baed2565f22fd8e13481cb3",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\YoutubeBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Os2Display youtube template.",
+            "time": "2019-05-15T06:34:07+00:00"
         },
         {
             "name": "paragonie/random_compat",
