@@ -21,6 +21,7 @@
     },
     "require": {
         "php": ">=7.2",
+        "cweagans/composer-patches": "~1.0",
         "os2display/admin-bundle": "~2.0",
         "os2display/campaign-bundle": "~2.0",
         "os2display/core-bundle": "~2.0",
@@ -62,6 +63,11 @@
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
         },
-        "branch-alias": null
+        "branch-alias": null,
+        "patches": {
+            "os2display/admin-bundle": {
+              "Switch to supporting a separate configuration for the public search hostname": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/12.patch"
+            }
+        }
     }
 }
