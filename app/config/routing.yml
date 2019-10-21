@@ -40,3 +40,7 @@ os2display_campaign:
 os2display_screen:
     resource: "@Os2DisplayScreenBundle/Resources/config/routing.yml"
     prefix:   /
+
+os2display_template_extension:
+    resource: "@Os2DisplayTemplateExtensionBundle/Resources/config/routing.yml"
+    prefix: /

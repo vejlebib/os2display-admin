@@ -39,6 +39,7 @@ class AppKernel extends Kernel
             new Os2Display\ScreenBundle\Os2DisplayScreenBundle(),
             new Os2Display\YoutubeBundle\Os2DisplayYoutubeBundle(),
             new Os2Display\VimeoBundle\Os2DisplayVimeoBundle(),
+            new Os2Display\TemplateExtensionBundle\Os2DisplayTemplateExtensionBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test', 'acceptance'], true)) {

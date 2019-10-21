@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b69607bcaa5d0bbb274a885e1bacd3dc",
+    "content-hash": "4dc265c69792d87044a004e692954ef1",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3066,6 +3066,30 @@
             ],
             "description": "Os2Display screen",
             "time": "2019-10-07T08:01:52+00:00"
+        },
+        {
+            "name": "os2display/template-extension-bundle",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/os2display/template-extension-bundle.git",
+                "reference": "22d40fe22a587ec56eb072071fd4914eee080e63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/os2display/template-extension-bundle/zipball/22d40fe22a587ec56eb072071fd4914eee080e63",
+                "reference": "22d40fe22a587ec56eb072071fd4914eee080e63",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\TemplateExtensionBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Os2Display Template Extension Bundle contains tools for templates.",
+            "time": "2019-05-15T12:38:02+00:00"
         },
         {
             "name": "os2display/vimeo-bundle",
