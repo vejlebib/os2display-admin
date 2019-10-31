@@ -21,6 +21,7 @@
     },
     "require": {
         "php": ">=7.2",
+        "cspoo/swiftmailer-mailgun-bundle": "^0.4",
         "cweagans/composer-patches": "~1.0",
         "os2display/admin-bundle": "~2.0",
         "os2display/campaign-bundle": "~2.0",
@@ -30,7 +31,8 @@
         "os2display/screen-bundle": "~1.0",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "^2.0",
-        "os2display/youtube-bundle": "^2.0"
+        "os2display/youtube-bundle": "^2.0",
+        "php-http/guzzle6-adapter": "^0.4"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
@@ -70,6 +72,9 @@
         "patches": {
             "os2display/admin-bundle": {
               "Switch to supporting a separate configuration for the public search hostname": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/12.patch"
+            },
+            "cspoo/swiftmailer-mailgun-bundle": {
+                "Added endpoint to configuration": "https://patch-diff.githubusercontent.com/raw/tehplague/swiftmailer-mailgun-bundle/pull/73.patch"
             }
         }
     }

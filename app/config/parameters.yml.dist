@@ -10,6 +10,10 @@ parameters:
     database_password: ~
     database_server_version: 5.5
 
+    mailgun_key:       key-xxxxxxxxxx
+    mailgun_domain:    mydomain.com
+    mailgun_endpoint:  https://api.eu.mailgun.net # Optional. Use this config for EU region. Defaults to "https://api.mailgun.net"
+
     mailer_transport:  sendmail
     mailer_host:       127.0.0.1
     mailer_port:       25
