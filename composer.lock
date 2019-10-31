@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed2ddf3b01e6c291d79792766a398cd5",
+    "content-hash": "1b855c2d6dbb7ea364d11f3537788369",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -257,6 +257,9 @@
                 "php-http/httplug-bundle": "To manage your http clients"
             },
             "type": "symfony-bundle",
+            "extra": {
+                "patches_applied": []
+            },
             "autoload": {
                 "psr-4": {
                     "cspoo\\Swiftmailer\\MailgunBundle\\": ""
@@ -3039,7 +3042,8 @@
             "type": "symfony-bundle",
             "extra": {
                 "patches_applied": {
-                    "Switch to supporting a separate configuration for the public search hostname": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/12.patch"
+                    "Switch to supporting a separate configuration for the public search hostname": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/12.patch",
+                    "Fix errors on user reset form after symfony upgrade": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/14.patch"
                 }
             },
             "autoload": {
@@ -3141,6 +3145,9 @@
                     "doctrine/dbal": {
                         "https://github.com/doctrine/dbal/issues/2426": "Features/Fixtures/patch/doctrine-dbal-issues-2426.patch"
                     }
+                },
+                "patches_applied": {
+                    "Send absolute URL in user mail": "https://patch-diff.githubusercontent.com/raw/os2display/core-bundle/pull/14.patch"
                 }
             },
             "autoload": {

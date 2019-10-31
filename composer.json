@@ -71,7 +71,11 @@
         "branch-alias": null,
         "patches": {
             "os2display/admin-bundle": {
-              "Switch to supporting a separate configuration for the public search hostname": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/12.patch"
+              "Switch to supporting a separate configuration for the public search hostname": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/12.patch",
+              "Fix errors on user reset form after symfony upgrade": "https://patch-diff.githubusercontent.com/raw/os2display/admin-bundle/pull/14.patch"
+            },
+            "os2display/core-bundle": {
+                "Send absolute URL in user mail": "https://patch-diff.githubusercontent.com/raw/os2display/core-bundle/pull/14.patch"
             },
             "cspoo/swiftmailer-mailgun-bundle": {
                 "Added endpoint to configuration": "https://patch-diff.githubusercontent.com/raw/tehplague/swiftmailer-mailgun-bundle/pull/73.patch"
