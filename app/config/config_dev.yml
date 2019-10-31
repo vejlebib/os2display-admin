@@ -37,7 +37,7 @@ monolog:
 
 swiftmailer:
     transport: smtp
-    host:      127.0.0.1
+    host:      mailhog
     username:  null
     password:  null
     port: 1025
