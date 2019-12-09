@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b855c2d6dbb7ea364d11f3537788369",
+    "content-hash": "1104a5314d232c63f7e17cb42463a6c5",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3184,6 +3184,70 @@
             "time": "2019-10-07T07:48:54+00:00"
         },
         {
+            "name": "os2display/exchange-bundle",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/os2display/exchange-bundle.git",
+                "reference": "0c4dc3772ebd2926e9177a62781c3eddc7d05fb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/os2display/exchange-bundle/zipball/0c4dc3772ebd2926e9177a62781c3eddc7d05fb9",
+                "reference": "0c4dc3772ebd2926e9177a62781c3eddc7d05fb9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/cache": "^1.0",
+                "doctrine/doctrine-bundle": "^1.2",
+                "os2display/core-bundle": "^2.0",
+                "symfony/symfony": "^3.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\ExchangeBundle\\": ""
+                }
+            },
+            "description": "Os2Display exchange calendar integration",
+            "support": {
+                "source": "https://github.com/os2display/exchange-bundle/tree/2.1.0",
+                "issues": "https://github.com/os2display/exchange-bundle/issues"
+            },
+            "time": "2020-01-27T09:55:36+00:00"
+        },
+        {
+            "name": "os2display/horizon-template-bundle",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/os2display/horizon-template-bundle.git",
+                "reference": "708df480726a5acf25e60df70809a1b2b37ca4fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/os2display/horizon-template-bundle/zipball/708df480726a5acf25e60df70809a1b2b37ca4fa",
+                "reference": "708df480726a5acf25e60df70809a1b2b37ca4fa",
+                "shasum": ""
+            },
+            "require": {
+                "os2display/core-bundle": "^2.0",
+                "twig/extensions": "^1.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\HorizonTemplateBundle\\": ""
+                }
+            },
+            "description": "Os2Display Horizon templates",
+            "support": {
+                "source": "https://github.com/os2display/horizon-template-bundle/tree/2.1.0",
+                "issues": "https://github.com/os2display/horizon-template-bundle/issues"
+            },
+            "time": "2020-01-27T09:58:16+00:00"
+        },
+        {
             "name": "os2display/media-bundle",
             "version": "2.0.0",
             "source": {
@@ -4443,6 +4507,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
+            "abandoned": "symfony/maker-bundle",
             "time": "2017-12-07T15:36:41+00:00"
         },
         {
@@ -6089,6 +6154,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2017-10-20T15:21:32+00:00"
         },
         {
@@ -6143,6 +6209,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],

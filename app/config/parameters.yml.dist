@@ -58,3 +58,7 @@ parameters:
     itk_log_log_level: all
 
     search_filter_default: all
+
+    os2display_exchange.host: https://webpost.vejle.dk
+    os2display_exchange.user: ~
+    os2display_exchange.password: ~

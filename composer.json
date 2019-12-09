@@ -27,6 +27,8 @@
         "os2display/campaign-bundle": "~2.0",
         "os2display/core-bundle": "~2.0",
         "os2display/default-template-bundle": "~1.1",
+        "os2display/exchange-bundle": "^2.0",
+        "os2display/horizon-template-bundle": "^2.0",
         "os2display/media-bundle": "~2.0",
         "os2display/screen-bundle": "~1.0",
         "os2display/template-extension-bundle": "^2.0",
@@ -38,7 +40,16 @@
         "sensio/generator-bundle": "^3.0",
         "symfony/phpunit-bridge": "^3.0"
     },
-    "repositories": {},
+    "repositories": {
+        "os2display/exchange-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/exchange-bundle"
+        },
+        "os2display/horizon-template-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/horizon-template-bundle"
+        }
+    },
     "scripts": {
         "symfony-scripts": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",

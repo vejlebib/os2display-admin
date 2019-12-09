@@ -150,3 +150,11 @@ fos_rest:
             - { path: '^/', stop: true } # Available for version >= 1.5
 
 nelmio_api_doc: ~
+
+os2_display_exchange:
+    enabled: true
+    host: "%os2display_exchange.host%"
+    user: "%os2display_exchange.user%"
+    password: "%os2display_exchange.password%"
+    version: Exchange2010
+    cache_ttl: 1800

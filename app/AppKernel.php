@@ -41,6 +41,8 @@ class AppKernel extends Kernel
             new Os2Display\VimeoBundle\Os2DisplayVimeoBundle(),
             new Os2Display\TemplateExtensionBundle\Os2DisplayTemplateExtensionBundle(),
             new cspoo\Swiftmailer\MailgunBundle\cspooSwiftmailerMailgunBundle(),
+            new Os2Display\ExchangeBundle\Os2DisplayExchangeBundle(),
+            new Os2Display\HorizonTemplateBundle\Os2DisplayHorizonTemplateBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test', 'acceptance'], true)) {
