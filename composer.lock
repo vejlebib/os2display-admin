@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1104a5314d232c63f7e17cb42463a6c5",
+    "content-hash": "d5d5df17071466867befb9aa6c59e012",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3365,6 +3365,11 @@
                 "shasum": ""
             },
             "type": "symfony-bundle",
+            "extra": {
+                "patches_applied": {
+                    "Fix slide progression": "https://github.com/vejlebib/youtube-bundle/commit/7ec6a7f4f4ea2531074ac239c9ab9e842f5e0b78.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Os2Display\\YoutubeBundle\\": ""
