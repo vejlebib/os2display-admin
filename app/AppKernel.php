@@ -43,6 +43,7 @@ class AppKernel extends Kernel
             new cspoo\Swiftmailer\MailgunBundle\cspooSwiftmailerMailgunBundle(),
             new Os2Display\ExchangeBundle\Os2DisplayExchangeBundle(),
             new Os2Display\HorizonTemplateBundle\Os2DisplayHorizonTemplateBundle(),
+            new Vejlebib\Os2DisplayTemplateBundle\VejlebibOs2DisplayTemplateBundle()
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test', 'acceptance'], true)) {

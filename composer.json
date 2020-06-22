@@ -34,7 +34,8 @@
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "^2.0",
         "os2display/youtube-bundle": "^2.0",
-        "php-http/guzzle6-adapter": "^0.4"
+        "php-http/guzzle6-adapter": "^0.4",
+        "vejlebib/os2display-template-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
@@ -48,6 +49,10 @@
         "os2display/horizon-template-bundle": {
             "type": "vcs",
             "url": "https://github.com/os2display/horizon-template-bundle"
+        },
+        "vejlebib/os2display-template-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/vejlebib/os2display-template-bundle"
         }
     },
     "scripts": {
