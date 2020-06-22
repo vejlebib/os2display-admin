@@ -5972,12 +5972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vejlebib/os2display-template-bundle.git",
-                "reference": "5f5680e0d97e8f17c4985c2f75d90d749c1241a6"
+                "reference": "0918ee50ac73160c47bc8c6549b45d3dc68e97aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vejlebib/os2display-template-bundle/zipball/5f5680e0d97e8f17c4985c2f75d90d749c1241a6",
-                "reference": "5f5680e0d97e8f17c4985c2f75d90d749c1241a6",
+                "url": "https://api.github.com/repos/vejlebib/os2display-template-bundle/zipball/0918ee50ac73160c47bc8c6549b45d3dc68e97aa",
+                "reference": "0918ee50ac73160c47bc8c6549b45d3dc68e97aa",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -5991,7 +5991,7 @@
                 "source": "https://github.com/vejlebib/os2display-template-bundle/tree/master",
                 "issues": "https://github.com/vejlebib/os2display-template-bundle/issues"
             },
-            "time": "2020-06-22T05:15:27+00:00"
+            "time": "2020-06-22T06:04:01+00:00"
         },
         {
             "name": "webmozart/assert",
