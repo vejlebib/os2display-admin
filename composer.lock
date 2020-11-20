@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36d22d8b76f6e3475ab683f2637c1a54",
+    "content-hash": "7efee17dc7ac623e6062c00467ea1cd0",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3204,6 +3204,11 @@
                 "symfony/symfony": "^3.4"
             },
             "type": "symfony-bundle",
+            "extra": {
+                "patches_applied": {
+                    "Apply location override and event filter on import": "https://github.com/vejlebib/exchange-bundle/commit/b2e81a85f1b329278471b1f313fd02faf81165ef.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Os2Display\\ExchangeBundle\\": ""
