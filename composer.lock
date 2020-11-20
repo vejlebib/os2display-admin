@@ -4389,6 +4389,7 @@
                 "configuration",
                 "distribution"
             ],
+            "abandoned": true,
             "time": "2017-08-25T16:55:44+00:00"
         },
         {
@@ -4635,6 +4636,7 @@
             "keywords": [
                 "sonata"
             ],
+            "abandoned": true,
             "time": "2018-06-13T04:16:25+00:00"
         },
         {
@@ -5897,6 +5899,7 @@
                 "i18n",
                 "text"
             ],
+            "abandoned": true,
             "time": "2017-06-08T18:19:53+00:00"
         },
         {
@@ -5972,12 +5975,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vejlebib/os2display-template-bundle.git",
-                "reference": "0918ee50ac73160c47bc8c6549b45d3dc68e97aa"
+                "reference": "c30af7324328b4bd8ba14dc5ac5d205a7e5914cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vejlebib/os2display-template-bundle/zipball/0918ee50ac73160c47bc8c6549b45d3dc68e97aa",
-                "reference": "0918ee50ac73160c47bc8c6549b45d3dc68e97aa",
+                "url": "https://api.github.com/repos/vejlebib/os2display-template-bundle/zipball/c30af7324328b4bd8ba14dc5ac5d205a7e5914cc",
+                "reference": "c30af7324328b4bd8ba14dc5ac5d205a7e5914cc",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -5991,7 +5994,7 @@
                 "source": "https://github.com/vejlebib/os2display-template-bundle/tree/master",
                 "issues": "https://github.com/vejlebib/os2display-template-bundle/issues"
             },
-            "time": "2020-06-22T06:04:01+00:00"
+            "time": "2020-11-19T23:45:15+00:00"
         },
         {
             "name": "webmozart/assert",
